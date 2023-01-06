@@ -1,0 +1,26 @@
+@use '../app.scss';
+
+* {
+  font-family: app.$font-stack;
+}
+
+.michroma-ff {
+  font-family: 'Michroma', sans-serif;
+  color: app.$primary-blue;
+}
+
+h1, h2, p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p, h2 {
+  font-size: 36px;
+}
+
+input, select {
+  font-size: 24px;
+}

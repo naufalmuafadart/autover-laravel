@@ -1,0 +1,134 @@
+#s-navbar {
+  height: 80px;
+}
+#s-navbar nav {
+  padding: 0px 45px;
+}
+#s-navbar .button:first-of-type {
+  margin-right: 30px;
+}
+#s-navbar #navbar-brand {
+  font-size: 48px;
+}
+
+#s-jumbotron {
+  background-image: url("/image/bg-jumbotron.png");
+  background-size: cover;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  margin-bottom: 80px;
+}
+#s-jumbotron .left-side {
+  padding: 74px 15px 64px 42px;
+}
+#s-jumbotron .left-side .jmbtrn-text {
+  width: 70%;
+}
+#s-jumbotron .left-side .jmbtrn-text:first-child {
+  font-size: 55px;
+  margin-bottom: 26px;
+}
+#s-jumbotron .left-side .jmbtrn-text:last-child {
+  font-size: 24px;
+}
+
+#s-tutorial {
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 80px;
+}
+#s-tutorial .right-side h1 {
+  margin-bottom: 30px;
+}
+#s-tutorial .right-side .button-container {
+  padding-left: 110px;
+  margin-bottom: 32px;
+}
+#s-tutorial .right-side ul {
+  list-style-type: none;
+}
+#s-tutorial .right-side ul li {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 38px;
+}
+#s-tutorial .right-side ul li .order {
+  margin-right: 30px;
+  width: 40px;
+}
+#s-tutorial .right-side ul li .order .box {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 200px;
+  font-size: 32px;
+}
+#s-tutorial .right-side ul li .content .text:first-child {
+  font-size: 32px;
+}
+#s-tutorial .right-side ul li .content .text:last-child {
+  font-size: 20px;
+}
+
+#s-search {
+  padding: 0px 55px;
+  margin-bottom: 80px;
+}
+#s-search form.container {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px 0px;
+}
+#s-search form.container .row {
+  display: flex;
+  justify-content: space-around;
+}
+#s-search form.container .row .box h2 {
+  text-align: center;
+}
+#s-search form.container .row .box .input-container img {
+  margin-right: 15px;
+}
+#s-search form.container .row .separator {
+  width: 1px;
+  background-color: black;
+  color: white;
+}
+#s-search button {
+  margin: 18px 0px 0px 0px;
+}
+
+#s-list {
+  padding: 0px 55px;
+  margin-bottom: 80px;
+}
+#s-list ul {
+  list-style-type: none;
+  padding: 0px;
+}
+#s-list ul li {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+#s-list ul li > .left-side img {
+  height: 70%;
+  margin-right: 64px;
+}
+#s-list ul li > .left-side > .right-side p:first-child {
+  font-weight: bold;
+}
+#s-list ul li > .right-side {
+  text-align: end;
+}
+
+#s-footer footer {
+  padding: 0px 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#s-footer footer .left-side img {
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+}/*# sourceMappingURL=home.css.map */

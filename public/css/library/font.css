@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: "Assistant", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  background-color: #0032A0;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.button-secondary {
+  background-color: white;
+  border: 1px solid #0032A0;
+  color: #0032A0;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.icon, input, select {
+  height: 36px;
+}
+
+* {
+  font-family: "Assistant", sans-serif;
+}
+
+.michroma-ff {
+  font-family: "Michroma", sans-serif;
+  color: #0032A0;
+}
+
+h1, h2, p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p, h2 {
+  font-size: 36px;
+}
+
+input, select {
+  font-size: 24px;
+}/*# sourceMappingURL=font.css.map */

@@ -1,0 +1,38 @@
+$primary-blue: #0032A0;
+$font-stack: 'Assistant', sans-serif;
+
+* {
+  box-sizing: border-box;
+  font-family: $font-stack;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  background-color: $primary-blue;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.button-secondary {
+  background-color: white;
+  border: 1px solid $primary-blue;
+  color: $primary-blue;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.icon, input, select {
+  height: 36px;
+}

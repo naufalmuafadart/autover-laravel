@@ -1,0 +1,27 @@
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column {
+  flex-direction: column;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.d-grid {
+  display: grid;
+}/*# sourceMappingURL=layouting.css.map */
