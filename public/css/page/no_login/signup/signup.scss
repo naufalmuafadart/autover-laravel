@@ -10,12 +10,16 @@ body {
   height: 100vh;
   grid-template-columns: 1fr 1fr;
   overflow: scroll;
+  position: relative;
 
   .left-side {
-
+    position: sticky;
+    top: 0px;
+    height: 100vh;
     img {
       width: 100%;
       height: 100%;
+      // position: sticky;
     }
   }
 
