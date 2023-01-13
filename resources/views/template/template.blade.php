@@ -3,6 +3,7 @@
 <head>
   @include('include.meta')
   @include('include.style')
+  @stack('add-on-style')
   <title>@yield('title')</title>
 </head>
 <body>

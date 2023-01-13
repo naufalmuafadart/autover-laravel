@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="/css/library/sizing.css" />
 <link rel="stylesheet" href="/css/library/font.css" />
 
-<link rel="stylesheet" href="/css/page/home.css" />
+<link rel="stylesheet" href="/css/component/navbar/navbar.css" />

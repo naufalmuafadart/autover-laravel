@@ -1,0 +1,12 @@
+#s-navbar {
+  height: 80px;
+}
+#s-navbar nav {
+  padding: 20px 45px;
+}
+#s-navbar .button:first-of-type {
+  margin-right: 30px;
+}
+#s-navbar #navbar-brand {
+  font-size: 48px;
+}/*# sourceMappingURL=navbar.css.map */
