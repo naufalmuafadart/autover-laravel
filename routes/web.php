@@ -28,3 +28,7 @@ Route::get('/login', function () {
 Route::get('/begin_reset_password', function () {
     return view('./page/no_login/begin_reset_password');
 });
+
+Route::get('/reset_password', function () {
+    return view('./page/no_login/reset_password');
+});

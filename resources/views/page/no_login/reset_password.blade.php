@@ -5,7 +5,7 @@
 @endpush
 
 @section('title')
-  Mulai reset password
+  Reset password
 @endsection
 
 @section('content')
@@ -17,15 +17,23 @@
       <h2>Reset Password</h2>
       <div class="input-container inline-input-container-2">
         <div class="row">
-          <label for="">Email</label>
-          <input type="email" name="email" id="inputEmail">
+          <label for="">Password</label>
+          <input type="password" name="password" id="inputPassword">
         </div>
-        <small>Email tidak ditemukan</small>
+        <small>Password salah / tidak sesuai</small>
       </div>
+
+      <div class="input-container inline-input-container-2">
+        <div class="row">
+          <label for="">Ulangi Password</label>
+          <input type="password" name="retypePassword" id="inputRetypePassword">
+        </div>
+        <small>Password salah / tidak sesuai</small>
+      </div>
+
       <div class="button-container d-flex jc-flex-end">
         <button class="button" type="submit">Reset Password</button>
       </div>
-      <h3>Petunjuk reset password telah dikirimkan via email</h3>
     </form>
   </section>
 @endsection
