@@ -13,22 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('./page/no_login/home');
-});
+Route::get('/', 'View\NoLogin\HomeController@index');
 
-Route::get('/signup', function () {
-    return view('./page/no_login/signup');
-});
+Route::get('/signup', 'View\NoLogin\LoginSignUpController@signup');
 
-Route::get('/login', function () {
-    return view('./page/no_login/login');
-});
+Route::get('/login', 'View\NoLogin\LoginSignUpController@login');
 
-Route::get('/begin_reset_password', function () {
-    return view('./page/no_login/begin_reset_password');
-});
+Route::get('/begin_reset_password', 'View\NoLogin\ResetPassword@beginResetPassword');
 
-Route::get('/reset_password', function () {
-    return view('./page/no_login/reset_password');
-});
+Route::get('/reset_password', 'View\NoLogin\ResetPassword@resetPassword');
