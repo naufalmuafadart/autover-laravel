@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('template.template')
 
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Michroma&display=swap" rel="stylesheet">
+@section('title')
+  Autover
+@endsection
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/app.css" />
-
-  <link rel="stylesheet" href="/css/library/layouting.css" />
-  <link rel="stylesheet" href="/css/library/sizing.css" />
-  <link rel="stylesheet" href="/css/library/font.css" />
-
-  <link rel="stylesheet" href="/css/page/home.css" />
-
-  <title>Autover</title>
-</head>
-<body>
+@section('content')
   <section id="s-navbar">
     <nav class="d-flex jc-space-between ai-center h-100">
       <div class="left-side">
@@ -203,5 +188,4 @@
       </div>
     </footer>
   </section>
-</body>
-</html>
+@endsection
