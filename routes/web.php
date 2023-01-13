@@ -24,3 +24,7 @@ Route::get('/signup', function () {
 Route::get('/login', function () {
     return view('./page/no_login/login');
 });
+
+Route::get('/begin_reset_password', function () {
+    return view('./page/no_login/begin_reset_password');
+});

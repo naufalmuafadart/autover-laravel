@@ -18,10 +18,18 @@
   justify-content: center;
 }
 
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
 .ai-center {
   align-items: center;
 }
 
 .d-grid {
   display: grid;
+}
+
+.float-right {
+  float: right;
 }/*# sourceMappingURL=layouting.css.map */

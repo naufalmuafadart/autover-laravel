@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
 .ai-center {
   align-items: center;
 }
@@ -28,4 +32,9 @@
 
 .d-grid {
   display: grid;
+}
+
+// float
+.float-right {
+  float: right;
 }
