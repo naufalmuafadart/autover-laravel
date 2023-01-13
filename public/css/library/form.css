@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: "Assistant", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  background-color: #0032A0;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.button-secondary {
+  background-color: white;
+  border: 1px solid #0032A0;
+  color: #0032A0;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.icon, input, select {
+  height: 36px;
+}
+
+form select, form input {
+  height: 36px;
+}
+form input {
+  padding: 0px 0px 5px 10px;
+}
+form .input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+form .input-container label, form .input-container input {
+  display: block;
+  font-size: 32px;
+}
+form .input-container input {
+  border-radius: 15px;
+  height: 50px;
+}
+form .input-container small {
+  color: red;
+  align-self: flex-end;
+  font-size: 24px;
+}
+form .other-choice {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+form .other-choice a, form .other-choice .quest {
+  display: inline;
+  font-size: 24px;
+}
+form .other-choice .quest {
+  margin-right: 10px;
+}
+form .other-choice a {
+  text-decoration: none;
+  color: #0032A0;
+}
+form .inline-input-container {
+  flex-direction: row;
+  align-items: center;
+}/*# sourceMappingURL=form.css.map */

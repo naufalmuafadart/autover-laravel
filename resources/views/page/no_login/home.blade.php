@@ -1,7 +1,7 @@
 @extends('template.template')
 
 @push('add-on-style')
-  <link rel="stylesheet" href="/css/page/home.css" />
+  <link rel="stylesheet" href="/css/page/no_login/home/home.css" />
 @endpush
 
 @section('title')
@@ -81,7 +81,7 @@
       <div class="row">
         <div class="box">
           <h2>Lokasi Sewa</h2>
-          <div class="input-container d-flex ai-center">
+          <div class="input-container inline-input-container">
             <img src="/image/icon/ic_location.png" alt="location icon" class="icon" />
             <select>
               <option value="1">Kec. Batununggal</option>
@@ -94,7 +94,7 @@
 
         <div class="box">
           <h2>Tanggal Mulai</h2>
-          <div class="input-container d-flex ai-center">
+          <div class="input-container inline-input-container">
             <img src="/image/icon/ic_calendar.png" alt="location icon" class="icon" />
             <input type="date" name="" id="">
           </div>
@@ -104,7 +104,7 @@
 
         <div class="box">
           <h2>Tanggal Selesai</h2>
-          <div class="input-container d-flex ai-center">
+          <div class="input-container inline-input-container">
             <img src="/image/icon/ic_calendar.png" alt="location icon" class="icon" />
             <input type="date" name="" id="">
           </div>

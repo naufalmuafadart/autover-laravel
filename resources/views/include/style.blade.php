@@ -7,5 +7,6 @@
 <link rel="stylesheet" href="/css/library/layouting.css" />
 <link rel="stylesheet" href="/css/library/sizing.css" />
 <link rel="stylesheet" href="/css/library/font.css" />
+<link rel="stylesheet" href="/css/library/form.css" />
 
 <link rel="stylesheet" href="/css/component/navbar/navbar.css" />

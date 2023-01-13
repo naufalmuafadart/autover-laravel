@@ -1,0 +1,52 @@
+@use '../../../app.scss';
+
+body {
+  background-color: app.$primary-blue;
+  padding: 0px 9%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  overflow: scroll;
+
+  .left-side {
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .right-side {
+    background-color: white;
+
+    form {
+      padding: 17px 10%;
+      .branding {
+        margin-bottom: 24px;
+
+        img {
+          width: 99px;
+          height: 99px;
+          margin-right: 50px;
+        }
+
+      }
+      
+      h1 {
+        align-self: start;
+        margin-bottom: 38px;
+      }
+
+      button {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}

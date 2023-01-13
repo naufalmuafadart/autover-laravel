@@ -1,0 +1,59 @@
+@use '../app.scss';
+
+form {
+  select, input {
+    height: 36px;
+  }
+
+  input {
+    padding: 0px 0px 5px 10px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+
+    label, input {
+      display: block;
+      font-size: 32px;
+    }
+
+    input {
+      border-radius: 15px;
+      height: 50px;
+    }
+
+    small {
+      color: red;
+      align-self: flex-end;
+      font-size: 24px;
+    }
+  }
+
+  .other-choice {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+    a, .quest {
+      display: inline;
+      font-size: 24px;
+    }
+
+    .quest {
+      margin-right: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: app.$primary-blue;
+    }
+  }
+
+  .inline-input-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
