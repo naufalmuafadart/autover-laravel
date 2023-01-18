@@ -22,3 +22,5 @@ Route::get('/login', 'View\NoLogin\LoginSignUpController@login');
 Route::get('/begin_reset_password', 'View\NoLogin\ResetPasswordController@beginResetPassword');
 
 Route::get('/reset_password', 'View\NoLogin\ResetPasswordController@resetPassword');
+
+Route::get('/renter', 'View\Renter\HomeController@index');

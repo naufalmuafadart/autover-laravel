@@ -1,0 +1,26 @@
+#s-list {
+  padding: 0px 55px;
+  margin-bottom: 80px;
+}
+#s-list ul {
+  list-style-type: none;
+  padding: 0px;
+}
+#s-list ul li {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+#s-list ul li > .left-side img {
+  height: 70%;
+  margin-right: 64px;
+}
+#s-list ul li > .left-side > .right-side p:first-child {
+  font-weight: bold;
+}
+#s-list ul li > .right-side {
+  text-align: end;
+}
+
+/*# sourceMappingURL=list.css.map */

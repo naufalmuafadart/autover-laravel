@@ -56,60 +56,6 @@
   font-size: 20px;
 }
 
-#s-search {
-  padding: 0px 55px;
-  margin-bottom: 80px;
-}
-#s-search form.container {
-  border: 1px solid black;
-  border-radius: 15px;
-  padding: 30px 0px;
-}
-#s-search form.container .row {
-  display: flex;
-  justify-content: space-around;
-}
-#s-search form.container .row .box h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-#s-search form.container .row .box .input-container img {
-  margin-right: 15px;
-}
-#s-search form.container .row .separator {
-  width: 1px;
-  background-color: black;
-  color: white;
-}
-#s-search button {
-  margin: 18px 0px 0px 0px;
-}
-
-#s-list {
-  padding: 0px 55px;
-  margin-bottom: 80px;
-}
-#s-list ul {
-  list-style-type: none;
-  padding: 0px;
-}
-#s-list ul li {
-  border: 1px solid black;
-  border-radius: 15px;
-  padding: 15px;
-  margin-bottom: 30px;
-}
-#s-list ul li > .left-side img {
-  height: 70%;
-  margin-right: 64px;
-}
-#s-list ul li > .left-side > .right-side p:first-child {
-  font-weight: bold;
-}
-#s-list ul li > .right-side {
-  text-align: end;
-}
-
 #s-footer footer {
   padding: 0px 55px;
   padding-top: 15px;
@@ -119,4 +65,6 @@
   width: 100px;
   height: 100px;
   margin-right: 25px;
-}/*# sourceMappingURL=home.css.map */
+}
+
+/*# sourceMappingURL=home.css.map */

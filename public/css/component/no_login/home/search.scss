@@ -1,0 +1,38 @@
+#s-search {
+  padding: 0px 55px;
+  margin-bottom: 80px;
+
+  form.container {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px 0px;
+
+    .row {
+      display: flex;
+      justify-content: space-around;
+
+      .box {
+        h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .input-container {
+          img {
+            margin-right: 15px;
+          }
+        }
+      }
+
+      .separator {
+        width: 1px;
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+
+  button {
+    margin: 18px 0px 0px 0px;
+  }
+}

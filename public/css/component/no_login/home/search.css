@@ -1,0 +1,30 @@
+#s-search {
+  padding: 0px 55px;
+  margin-bottom: 80px;
+}
+#s-search form.container {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px 0px;
+}
+#s-search form.container .row {
+  display: flex;
+  justify-content: space-around;
+}
+#s-search form.container .row .box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#s-search form.container .row .box .input-container img {
+  margin-right: 15px;
+}
+#s-search form.container .row .separator {
+  width: 1px;
+  background-color: black;
+  color: white;
+}
+#s-search button {
+  margin: 18px 0px 0px 0px;
+}
+
+/*# sourceMappingURL=search.css.map */

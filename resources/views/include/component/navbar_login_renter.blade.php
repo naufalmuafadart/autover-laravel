@@ -5,7 +5,12 @@
         <p class="michroma-ff" id="navbar-brand">AV</p>
       </div>
       <div class="right-side">
+        <img src="/image/icon/ic_user.png" alt="icon user" class="icon">
       </div>
     </div>
+    <ul id="nav-menu">
+      <li><a href="#">Profil</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
   </nav>
 </section>

@@ -1,6 +1,7 @@
 @extends('template.template')
 
 @push('add-on-style')
+  <link rel="stylesheet" href="/css/component/navbar.css">
   <link rel="stylesheet" href="/css/page/no_login/begin_reset_password/begin_reset_password.css" />
 @endpush
 
