@@ -54,6 +54,7 @@
       </div>
     </form>
   </section>
+  <hr>
 
   <section id="s-list">
     <h2>Pilihan mobil di kec. Batununggal</h2>
@@ -109,3 +110,7 @@
     </ul>
   </section>
 @endsection
+
+@push('add-on-script')
+  <script type="text/javascript" src="/js/component/navbar.js"></script>
+@endpush

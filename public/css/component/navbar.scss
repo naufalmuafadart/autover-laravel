@@ -16,10 +16,15 @@
         .button:first-of-type {
           margin-right: 30px;
         }
+
+        #ic-menu-user:hover {
+          cursor: pointer;
+        }
       }
     }
 
     ul#nav-menu {
+      display: none;
       list-style: none;
       position: absolute;
       padding: 10px 20px 10px 15px;

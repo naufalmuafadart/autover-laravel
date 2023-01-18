@@ -8,5 +8,6 @@
 </head>
 <body>
   @yield('content')
+  @stack('add-on-script')
 </body>
 </html>

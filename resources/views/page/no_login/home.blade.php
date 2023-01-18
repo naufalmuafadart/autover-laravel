@@ -186,3 +186,7 @@
     </footer>
   </section>
 @endsection
+
+@push('add-on-script')
+  <script type="text/javascript" src="/js/component/navbar.js"></script>
+@endpush
