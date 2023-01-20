@@ -13,6 +13,7 @@
 
 @section('content')
   @include('include.component.navbar_login_renter')
+  <hr>
 
   <section id="s-search">
     <h1>Cari Mobil</h1>
@@ -54,7 +55,6 @@
       </div>
     </form>
   </section>
-  <hr>
 
   <section id="s-list">
     <h2>Pilihan mobil di kec. Batununggal</h2>
