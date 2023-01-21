@@ -14,7 +14,7 @@
       <img src="/image/img-login.png" alt="">
     </div>
     <div class="right-side">
-      <form action="" class="d-flex d-flex-column ai-center">
+      <form action="" id="form" class="d-flex d-flex-column ai-center">
         <div class="branding d-flex jc-space-between ai-center">
           <img src="/image/logo/logo.png" alt="">
           <p class="michroma-ff">AUTOVER</p>
@@ -23,33 +23,33 @@
         <h1>Signup</h1>
 
         <div class="input-container">
-          <label for="">Nama Lengkap</label>
-          <input type="text" name="fullname" id="inputFullName">
+          <label for="inputFullName">Nama Lengkap</label>
+          <input type="text" name="full_name" id="inputFullName">
           <small>Nama lengkap salah</small>
         </div>
 
         <div class="input-container">
-          <label for="">No HP</label>
-          <input type="tel" name="fullname" id="inputPhoneNumber">
-          <small>No telepon tidak sesuai</small>
-        </div>
-        
-        <div class="input-container">
-          <label for="">Email</label>
-          <input type="email" name="fullname" id="inputEmail">
-          <small>No telepon tidak sesuai</small>
-        </div>
-        
-        <div class="input-container">
-          <label for="">Password</label>
-          <input type="password" name="fullname" id="inputPassword">
-          <small>No telepon tidak sesuai</small>
+          <label for="inputPhoneNumber">No HP</label>
+          <input type="tel" name="phone_number" id="inputPhoneNumber">
+          <small>No telepon tidak valid</small>
         </div>
 
         <div class="input-container">
-          <label for="">Ulangi Password</label>
-          <input type="password" name="fullname" id="inputRetypePassword">
-          <small>No telepon tidak sesuai</small>
+          <label for="inputEmail">Email</label>
+          <input type="email" name="email" id="inputEmail">
+          <small>Email tidak validi</small>
+        </div>
+
+        <div class="input-container">
+          <label for="inputPassword">Password</label>
+          <input type="password" name="password" id="inputPassword">
+          <small></small>
+        </div>
+
+        <div class="input-container">
+          <label for="inputRetypePassword">Ulangi Password</label>
+          <input type="password" name="retype_password" id="inputRetypePassword">
+          <small id="smallRetypePassword">Password tidak sama</small>
         </div>
 
         <button class="button w-100" type="submit">Sign Up</button>
@@ -62,3 +62,7 @@
     </div>
   </div>
 @endsection
+
+@push('add-on-script')
+  <script type="text/javascript" src="/js/page/no_login/signup.js"></script>
+@endpush
