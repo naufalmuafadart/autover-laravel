@@ -37,7 +37,35 @@ class UserController extends Controller
         ]);
     }
 
-    private function isValueExistInColumn(String $column, String $value): bool
+    public function login(Request $request) {
+        $email = $request->post('email');
+        $plain_password = $request->post('password');
+
+        if (!User::where('email', $email)->count() > 0) {
+            return response()->json([
+                "status" => 'failed',
+                'message' => 'Email not registered',
+            ])->setStatusCode(400);
+        }
+
+        $user = User::where('email', $email)->first();
+
+        if (!Hash::check($plain_password, $user->password)) {
+            return response()->json([
+                "status" => 'failed',
+                'message' => 'Password is incorrect',
+            ])->setStatusCode(400);
+        }
+
+        session(["id" => $user->id]);
+
+        return response()->json([
+            "status" => 'success',
+            'message' => 'Success login',
+        ]);
+    }
+
+    private function isValueExistInColumn(String $column, $value): bool
     {
         return User::where($column, $value)->count() > 0;
     }

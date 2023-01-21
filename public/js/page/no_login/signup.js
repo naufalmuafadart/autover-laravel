@@ -1,15 +1,26 @@
 const form = document.getElementById("form");
+const inputPhoneNumber = document.getElementById('inputPhoneNumber');
+const inputEmail = document.getElementById('inputEmail');
 const inputPassword = document.getElementById('inputPassword');
 const inputRetypePassword = document.getElementById('inputRetypePassword');
+const smallPhoneNumber = document.getElementById('smallPhoneNumber');
+const smallEmail = document.getElementById('smallEmail');
 const smallRetypePassword = document.getElementById('smallRetypePassword');
+const inputCSRF = document.getElementsByName('_token')[0];
 
-const hideAllSmall = () => {
-  const smallElements = document.getElementsByTagName("small");
-  for (let i = 0; i < smallElements.length; i++) {
-    smallElements[i].style.display = 'none';
-    console.log(smallElements[i]);
-  }
-};
+const CSRFToken = inputCSRF.value;
+
+inputPhoneNumber.addEventListener('input', () => {
+  smallPhoneNumber.style.display = 'none';
+});
+
+inputEmail.addEventListener('input', () => {
+  smallEmail.style.display = 'none';
+});
+
+inputPassword.addEventListener('input', () => {
+  smallPassword.style.display = 'none';
+});
 
 inputRetypePassword.addEventListener('input', (event) => {
   console.log('test');
@@ -39,6 +50,7 @@ form.addEventListener("submit", async (e) => {
     formData.append("phone_number", phone_number);
     formData.append("email", email);
     formData.append("password", password);
+    formData.append('_token', CSRFToken);
 
     let response = await fetch('/api/users', {
       method: 'POST',
@@ -50,7 +62,15 @@ form.addEventListener("submit", async (e) => {
     if (response.status === 200) {
       window.location.href = '/login';
     } else {
-      alert(result.message);
+      if (result.message.toLowerCase().includes('email')) {
+        smallEmail.style.display = 'inherit';
+      } else if (result.message.toLowerCase().includes('password')) {
+        smallPassword.style.display = 'inherit';
+      } else if (result.message.toLowerCase().includes('phone')) {
+        smallPhoneNumber.style.display = 'inherit';
+      } else {
+        alert(result.message);
+      }
     }
   }
 });

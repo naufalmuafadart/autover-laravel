@@ -15,6 +15,7 @@
     </div>
     <div class="right-side">
       <form action="" id="form" class="d-flex d-flex-column ai-center">
+        @csrf
         <div class="branding d-flex jc-space-between ai-center">
           <img src="/image/logo/logo.png" alt="">
           <p class="michroma-ff">AUTOVER</p>
@@ -31,13 +32,13 @@
         <div class="input-container">
           <label for="inputPhoneNumber">No HP</label>
           <input type="tel" name="phone_number" id="inputPhoneNumber">
-          <small>No telepon tidak valid</small>
+          <small id="smallPhoneNumber">No telepon tidak valid</small>
         </div>
 
         <div class="input-container">
           <label for="inputEmail">Email</label>
           <input type="email" name="email" id="inputEmail">
-          <small>Email tidak validi</small>
+          <small id="smallEmail">Email tidak valid</small>
         </div>
 
         <div class="input-container">
@@ -64,5 +65,6 @@
 @endsection
 
 @push('add-on-script')
+  <script type="text/javascript" src="/js/common.js"></script>
   <script type="text/javascript" src="/js/page/no_login/signup.js"></script>
 @endpush

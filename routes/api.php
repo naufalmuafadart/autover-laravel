@@ -19,4 +19,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/test', 'API\UserController@isEmailExist');
+
 Route::post('/users', 'API\UserController@create');
+Route::post('/login', 'API\UserController@login');
