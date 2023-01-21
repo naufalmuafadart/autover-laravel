@@ -8,6 +8,10 @@
 #s-navbar nav .main .left-side #navbar-brand {
   font-size: 48px;
 }
+#s-navbar nav .main .right-side {
+  display: flex;
+  align-items: center;
+}
 #s-navbar nav .main .right-side .button:first-of-type {
   margin-right: 30px;
 }

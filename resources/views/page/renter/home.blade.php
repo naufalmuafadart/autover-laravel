@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="/css/component/no_login/home/search.css" />
   <link rel="stylesheet" href="/css/component/no_login/home/list.css" />
   <link rel="stylesheet" href="/css/page/no_login/home/home.css" />
+
+  <link rel="stylesheet" href="/css/page/renter/home.css" />
 @endpush
 
 @section('title')
