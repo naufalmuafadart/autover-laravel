@@ -34,6 +34,10 @@ body {
   height: 36px;
 }
 
+hr {
+  margin: 0;
+}
+
 * {
   font-family: "Assistant", sans-serif;
 }
@@ -57,4 +61,6 @@ p, h2 {
 
 input, select {
   font-size: 24px;
-}/*# sourceMappingURL=font.css.map */
+}
+
+/*# sourceMappingURL=font.css.map */

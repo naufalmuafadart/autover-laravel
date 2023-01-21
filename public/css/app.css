@@ -32,4 +32,10 @@ body {
 
 .icon, input, select {
   height: 36px;
-}/*# sourceMappingURL=app.css.map */
+}
+
+hr {
+  margin: 0;
+}
+
+/*# sourceMappingURL=app.css.map */
